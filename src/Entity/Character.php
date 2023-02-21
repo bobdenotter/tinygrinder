@@ -73,6 +73,10 @@ class Character
     #[ORM\OneToMany(mappedBy: 'character', targetEntity: Inventory::class, orphanRemoval: true)]
     private Collection $Inventory;
 
+    #[ORM\ManyToOne(inversedBy: 'characters')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?User $user = null;
+
     public function __construct()
     {
         $this->Inventory = new ArrayCollection();
@@ -325,6 +329,18 @@ class Character
                 $inventory->setCharacter(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getUser(): ?User
+    {
+        return $this->user;
+    }
+
+    public function setUser(?User $user): self
+    {
+        $this->user = $user;
 
         return $this;
     }
