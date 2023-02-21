@@ -6,15 +6,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class QuestController extends AbstractController
+class CharactersController extends AbstractController
 {
-    #[Route('/quest', name: 'app_quest')]
+    #[Route('/characters', name: 'app_characters')]
     public function index(): Response
     {
-        $this->denyAccessUnlessGranted('IS_AUTHENTICATED');
-
-        return $this->render('quest/index.html.twig', [
-            'controller_name' => 'QuestController',
+        return $this->render('characters/index.html.twig', [
+            'controller_name' => 'CharactersController',
         ]);
     }
 }
