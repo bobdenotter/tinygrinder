@@ -13,7 +13,7 @@ class HomeController extends AbstractController
     #[Route('/', name: 'home')]
     public function index(): Response
     {
-        $roll = DiceBag::factory('4d6dl1 + 3d8+4');
+        $roll = DiceBag::factory('4d6dl1 + 3d8 + 4');
         dump($roll->getTotal());
         dump($roll->getDicePools());
 

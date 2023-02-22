@@ -1,0 +1,4280 @@
+-
+    creature: Aarakocra
+    cr: 0.25
+    type: humanoid (aarakocra)
+    size: medium
+    ac: 12
+    hp: 13
+    speed: fly
+    alignment: neutral good
+    legendary: 
+-
+    creature: Aboleth
+    cr: 10
+    type: aberration
+    size: large
+    ac: 17
+    hp: 135
+    speed: swim
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Abominable Yeti
+    cr: 9
+    type: monstrosity
+    size: huge
+    ac: 15
+    hp: 137
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Acolyte
+    cr: 0.25
+    type: humanoid (any race)
+    size: medium
+    ac: 10
+    hp: 9
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Adult Black Dragon
+    cr: 14
+    type: dragon (chromatic)
+    size: huge
+    ac: 19
+    hp: 195
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Adult Blue Dracolich
+    cr: 17
+    type: undead
+    size: huge
+    ac: 19
+    hp: 225
+    speed: fly
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Adult Blue Dragon
+    cr: 16
+    type: dragon (chromatic)
+    size: huge
+    ac: 19
+    hp: 225
+    speed: fly
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Adult Brass Dragon
+    cr: 13
+    type: dragon (metallic)
+    size: huge
+    ac: 18
+    hp: 172
+    speed: fly
+    alignment: chaotic good
+    legendary: legendary
+-
+    creature: Adult Bronze Dragon
+    cr: 15
+    type: dragon (metallic)
+    size: huge
+    ac: 19
+    hp: 212
+    speed: fly, swim
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Adult Copper Dragon
+    cr: 14
+    type: dragon (metallic)
+    size: huge
+    ac: 18
+    hp: 184
+    speed: fly
+    alignment: chaotic good
+    legendary: legendary
+-
+    creature: Adult Gold Dragon
+    cr: 17
+    type: dragon (metallic)
+    size: huge
+    ac: 19
+    hp: 256
+    speed: fly, swim
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Adult Green Dragon
+    cr: 15
+    type: dragon (chromatic)
+    size: huge
+    ac: 19
+    hp: 207
+    speed: fly, swim
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Adult Red Dragon
+    cr: 17
+    type: dragon (chromatic)
+    size: huge
+    ac: 19
+    hp: 256
+    speed: fly
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Adult Silver Dragon
+    cr: 16
+    type: dragon (metallic)
+    size: huge
+    ac: 19
+    hp: 243
+    speed: fly
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Adult White Dragon
+    cr: 13
+    type: dragon (chromatic)
+    size: huge
+    ac: 18
+    hp: 200
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Air Elemental
+    cr: 5
+    type: elemental
+    size: large
+    ac: 15
+    hp: 90
+    speed: fly
+    alignment: neutral
+    legendary: 
+-
+    creature: Allosaurus
+    cr: 2
+    type: beast
+    size: large
+    ac: 13
+    hp: 51
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ancient Black Dragon
+    cr: 21
+    type: dragon (chromatic)
+    size: gargantuan
+    ac: 22
+    hp: 367
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Ancient Blue Dragon
+    cr: 23
+    type: dragon (chromatic)
+    size: gargantuan
+    ac: 22
+    hp: 481
+    speed: fly
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Ancient Brass Dragon
+    cr: 20
+    type: dragon (metallic)
+    size: gargantuan
+    ac: 20
+    hp: 297
+    speed: fly
+    alignment: chaotic good
+    legendary: legendary
+-
+    creature: Ancient Bronze Dragon
+    cr: 22
+    type: dragon (metallic)
+    size: gargantuan
+    ac: 22
+    hp: 444
+    speed: fly, swim
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Ancient Copper Dragon
+    cr: 21
+    type: dragon (metallic)
+    size: gargantuan
+    ac: 21
+    hp: 350
+    speed: fly
+    alignment: chaotic good
+    legendary: legendary
+-
+    creature: Ancient Gold Dragon
+    cr: 24
+    type: dragon (metallic)
+    size: gargantuan
+    ac: 22
+    hp: 546
+    speed: fly, swim
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Ancient Green Dragon
+    cr: 22
+    type: dragon (chromatic)
+    size: gargantuan
+    ac: 21
+    hp: 385
+    speed: fly, swim
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Ancient Red Dragon
+    cr: 24
+    type: dragon (chromatic)
+    size: gargantuan
+    ac: 22
+    hp: 546
+    speed: fly
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Ancient Silver Dragon
+    cr: 23
+    type: dragon (metallic)
+    size: gargantuan
+    ac: 22
+    hp: 487
+    speed: fly
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Ancient White Dragon
+    cr: 20
+    type: dragon (chromatic)
+    size: gargantuan
+    ac: 20
+    hp: 333
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Androsphinx
+    cr: 17
+    type: monstrosity
+    size: large
+    ac: 17
+    hp: 199
+    speed: fly
+    alignment: lawful neutral
+    legendary: legendary
+-
+    creature: Animated Armor
+    cr: 1
+    type: construct
+    size: medium
+    ac: 18
+    hp: 33
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ankheg
+    cr: 2
+    type: monstrosity
+    size: large
+    ac: 14
+    hp: 39
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ankylosaurus
+    cr: 3
+    type: beast
+    size: huge
+    ac: 15
+    hp: 68
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ape
+    cr: 0.5
+    type: beast
+    size: medium
+    ac: 12
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Arcanaloth
+    cr: 12
+    type: fiend (yugoloth)
+    size: medium
+    ac: 17
+    hp: 104
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Archmage
+    cr: 12
+    type: humanoid (any race)
+    size: medium
+    ac: 12
+    hp: 99
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Assassin
+    cr: 8
+    type: humanoid (any race)
+    size: medium
+    ac: 15
+    hp: 78
+    speed: 
+    alignment: any non-good alignment
+    legendary: 
+-
+    creature: Awakened Shrub
+    cr: 0
+    type: plant
+    size: small
+    ac: 9
+    hp: 10
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Awakened Tree
+    cr: 2
+    type: plant
+    size: huge
+    ac: 13
+    hp: 59
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Axe Beak
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 11
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Azer
+    cr: 2
+    type: elemental
+    size: medium
+    ac: 17
+    hp: 39
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Baboon
+    cr: 0
+    type: beast
+    size: small
+    ac: 12
+    hp: 3
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Badger
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 10
+    hp: 3
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Balor
+    cr: 19
+    type: fiend (demon)
+    size: huge
+    ac: 19
+    hp: 262
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Bandit
+    cr: 0.125
+    type: humanoid (any race)
+    size: medium
+    ac: 12
+    hp: 11
+    speed: 
+    alignment: any non-lawful alignment
+    legendary: 
+-
+    creature: Bandit Captain
+    cr: 2
+    type: humanoid (any race)
+    size: medium
+    ac: 15
+    hp: 65
+    speed: 
+    alignment: any non-lawful alignment
+    legendary: 
+-
+    creature: Banshee
+    cr: 4
+    type: undead
+    size: medium
+    ac: 12
+    hp: 58
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Barbed Devil
+    cr: 5
+    type: fiend (devil)
+    size: medium
+    ac: 15
+    hp: 110
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Barlgura
+    cr: 5
+    type: fiend (demon)
+    size: large
+    ac: 15
+    hp: 68
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Basilisk
+    cr: 3
+    type: monstrosity
+    size: medium
+    ac: 15
+    hp: 52
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Bat
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 12
+    hp: 1
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Bearded Devil
+    cr: 3
+    type: fiend (devil)
+    size: medium
+    ac: 13
+    hp: 52
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Behir
+    cr: 11
+    type: monstrosity
+    size: huge
+    ac: 17
+    hp: 168
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Beholder
+    cr: 13
+    type: aberration
+    size: large
+    ac: 18
+    hp: 180
+    speed: fly
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Beholder Zombie
+    cr: 5
+    type: undead
+    size: large
+    ac: 15
+    hp: 93
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Berserker
+    cr: 2
+    type: humanoid (any race)
+    size: medium
+    ac: 13
+    hp: 67
+    speed: 
+    alignment: any chaotic alignment
+    legendary: 
+-
+    creature: Black Bear
+    cr: 0.5
+    type: beast
+    size: medium
+    ac: 11
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Black Dragon Wyrmling
+    cr: 2
+    type: dragon (chromatic)
+    size: medium
+    ac: 17
+    hp: 33
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Black Pudding
+    cr: 4
+    type: ooze
+    size: large
+    ac: 7
+    hp: 85
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Blink Dog
+    cr: 0.25
+    type: fey
+    size: medium
+    ac: 13
+    hp: 22
+    speed: 
+    alignment: lawful good
+    legendary: 
+-
+    creature: Blood Hawk
+    cr: 0.125
+    type: beast
+    size: small
+    ac: 12
+    hp: 7
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Blue Dragon Wyrmling
+    cr: 3
+    type: dragon (chromatic)
+    size: medium
+    ac: 17
+    hp: 52
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Blue Slaad
+    cr: 7
+    type: aberration
+    size: large
+    ac: 15
+    hp: 123
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Boar
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 11
+    hp: 11
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Bone Devil
+    cr: 9
+    type: fiend (devil)
+    size: large
+    ac: 19
+    hp: 142
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Bone Naga
+    cr: 4
+    type: undead
+    size: large
+    ac: 15
+    hp: 58
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Brass Dragon Wyrmling
+    cr: 1
+    type: dragon (metallic)
+    size: medium
+    ac: 16
+    hp: 16
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Bronze Dragon Wyrmling
+    cr: 2
+    type: dragon (metallic)
+    size: medium
+    ac: 17
+    hp: 32
+    speed: fly, swim
+    alignment: lawful good
+    legendary: 
+-
+    creature: Brown Bear
+    cr: 1
+    type: beast
+    size: large
+    ac: 11
+    hp: 34
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Bugbear
+    cr: 1
+    type: humanoid (goblinoid)
+    size: medium
+    ac: 16
+    hp: 27
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Bugbear Chief
+    cr: 3
+    type: humanoid (goblinoid)
+    size: medium
+    ac: 17
+    hp: 65
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Bulette
+    cr: 5
+    type: monstrosity
+    size: large
+    ac: 17
+    hp: 94
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Bullywug
+    cr: 0.25
+    type: humanoid (bullywug)
+    size: medium
+    ac: 15
+    hp: 11
+    speed: swim
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Cambion
+    cr: 5
+    type: fiend
+    size: medium
+    ac: 19
+    hp: 82
+    speed: fly
+    alignment: any evil alignment
+    legendary: 
+-
+    creature: Camel
+    cr: 0.125
+    type: beast
+    size: large
+    ac: 9
+    hp: 15
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Carrion Crawler
+    cr: 2
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 51
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Cat
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 12
+    hp: 2
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Centaur
+    cr: 2
+    type: monstrosity
+    size: large
+    ac: 12
+    hp: 45
+    speed: 
+    alignment: neutral good
+    legendary: 
+-
+    creature: Chain Devil
+    cr: 8
+    type: fiend (devil)
+    size: medium
+    ac: 16
+    hp: 85
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Chasme
+    cr: 6
+    type: fiend (demon)
+    size: large
+    ac: 15
+    hp: 84
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Chimera
+    cr: 6
+    type: monstrosity
+    size: large
+    ac: 14
+    hp: 114
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Chuul
+    cr: 4
+    type: aberration
+    size: large
+    ac: 16
+    hp: 93
+    speed: swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Clay Golem
+    cr: 9
+    type: construct
+    size: large
+    ac: 14
+    hp: 133
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Cloaker
+    cr: 8
+    type: aberration
+    size: large
+    ac: 14
+    hp: 78
+    speed: fly
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Cloud Giant
+    cr: 9
+    type: giant
+    size: huge
+    ac: 14
+    hp: 200
+    speed: 
+    alignment: neutral good
+    legendary: 
+-
+    creature: Cockatrice
+    cr: 0.5
+    type: monstrosity
+    size: small
+    ac: 11
+    hp: 27
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Commoner
+    cr: 0
+    type: humanoid (any race)
+    size: medium
+    ac: 10
+    hp: 4
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Constrictor Snake
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 12
+    hp: 13
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Copper Dragon Wyrmling
+    cr: 1
+    type: dragon (metallic)
+    size: medium
+    ac: 16
+    hp: 22
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Couatl
+    cr: 4
+    type: celestial
+    size: medium
+    ac: 19
+    hp: 97
+    speed: fly
+    alignment: lawful good
+    legendary: 
+-
+    creature: Crab
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 11
+    hp: 2
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Crawling Claw
+    cr: 0
+    type: undead
+    size: tiny
+    ac: 12
+    hp: 2
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Crocodile
+    cr: 0.5
+    type: beast
+    size: large
+    ac: 12
+    hp: 19
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Cult Fanatic
+    cr: 2
+    type: humanoid (any race)
+    size: medium
+    ac: 13
+    hp: 33
+    speed: 
+    alignment: any non-good alignment
+    legendary: 
+-
+    creature: Cultist
+    cr: 0.125
+    type: humanoid (any race)
+    size: medium
+    ac: 12
+    hp: 9
+    speed: 
+    alignment: any non-good alignment
+    legendary: 
+-
+    creature: Cyclops
+    cr: 6
+    type: giant
+    size: huge
+    ac: 14
+    hp: 138
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Dao
+    cr: 11
+    type: elemental
+    size: large
+    ac: 18
+    hp: 187
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Darkmantle
+    cr: 0.5
+    type: monstrosity
+    size: small
+    ac: 11
+    hp: 22
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Death Dog
+    cr: 1
+    type: monstrosity
+    size: medium
+    ac: 12
+    hp: 39
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Death Knight
+    cr: 17
+    type: undead
+    size: medium
+    ac: 20
+    hp: 180
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Death Slaad
+    cr: 10
+    type: aberration (shapechanger)
+    size: medium
+    ac: 18
+    hp: 170
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Death Tyrant
+    cr: 14
+    type: undead
+    size: large
+    ac: 19
+    hp: 187
+    speed: fly
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Deep Gnome (Svirfneblin)
+    cr: 0.5
+    type: humanoid (gnome)
+    size: small
+    ac: 15
+    hp: 16
+    speed: 
+    alignment: neutral good
+    legendary: 
+-
+    creature: Deer
+    cr: 0
+    type: beast
+    size: medium
+    ac: 13
+    hp: 4
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Demilich
+    cr: 18
+    type: undead
+    size: tiny
+    ac: 20
+    hp: 80
+    speed: fly
+    alignment: neutral evil
+    legendary: legendary
+-
+    creature: Deva
+    cr: 10
+    type: celestial
+    size: medium
+    ac: 17
+    hp: 136
+    speed: fly
+    alignment: lawful good
+    legendary: 
+-
+    creature: Dire Wolf
+    cr: 1
+    type: beast
+    size: large
+    ac: 14
+    hp: 37
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Displacer Beast
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 85
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Djinni
+    cr: 11
+    type: elemental
+    size: large
+    ac: 17
+    hp: 161
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Doppelganger
+    cr: 3
+    type: monstrosity (shapechanger)
+    size: medium
+    ac: 14
+    hp: 52
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Draft Horse
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 10
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Dragon Turtle
+    cr: 17
+    type: dragon
+    size: gargantuan
+    ac: 20
+    hp: 341
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Dretch
+    cr: 0.25
+    type: fiend (demon)
+    size: small
+    ac: 11
+    hp: 18
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Drider
+    cr: 6
+    type: monstrosity
+    size: large
+    ac: 19
+    hp: 123
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Drow
+    cr: 0.25
+    type: humanoid (elf)
+    size: medium
+    ac: 15
+    hp: 13
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Drow Elite Warrior
+    cr: 5
+    type: humanoid (elf)
+    size: medium
+    ac: 18
+    hp: 71
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Drow Mage
+    cr: 7
+    type: humanoid (elf)
+    size: medium
+    ac: 12
+    hp: 45
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Drow Priestess of Lolth
+    cr: 8
+    type: humanoid (elf)
+    size: medium
+    ac: 16
+    hp: 71
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Druid
+    cr: 2
+    type: humanoid (any race)
+    size: medium
+    ac: 11
+    hp: 27
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Dryad
+    cr: 1
+    type: fey
+    size: medium
+    ac: 11
+    hp: 22
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Duergar
+    cr: 1
+    type: humanoid (dwarf)
+    size: medium
+    ac: 16
+    hp: 26
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Duodrone
+    cr: 0.25
+    type: construct
+    size: medium
+    ac: 15
+    hp: 11
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Dust Mephit
+    cr: 0.5
+    type: elemental
+    size: small
+    ac: 12
+    hp: 17
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Eagle
+    cr: 0
+    type: beast
+    size: small
+    ac: 12
+    hp: 3
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Earth Elemental
+    cr: 5
+    type: elemental
+    size: large
+    ac: 17
+    hp: 126
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Efreeti
+    cr: 11
+    type: elemental
+    size: large
+    ac: 17
+    hp: 200
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Elephant
+    cr: 4
+    type: beast
+    size: huge
+    ac: 12
+    hp: 76
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Elk
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 10
+    hp: 13
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Empyrean
+    cr: 23
+    type: celestial (titan)
+    size: huge
+    ac: 22
+    hp: 313
+    speed: fly, swim
+    alignment: chaotic good
+    legendary: legendary
+-
+    creature: Erinyes
+    cr: 12
+    type: fiend (devil)
+    size: medium
+    ac: 18
+    hp: 153
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Ettercap
+    cr: 2
+    type: monstrosity
+    size: medium
+    ac: 13
+    hp: 44
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Ettin
+    cr: 4
+    type: giant
+    size: large
+    ac: 12
+    hp: 85
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Faerie Dragon
+    cr: 1
+    type: dragon
+    size: tiny
+    ac: 15
+    hp: 14
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Fire Elemental
+    cr: 5
+    type: elemental
+    size: large
+    ac: 13
+    hp: 102
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Fire Giant
+    cr: 9
+    type: giant
+    size: huge
+    ac: 18
+    hp: 162
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Fire Snake
+    cr: 1
+    type: elemental
+    size: medium
+    ac: 14
+    hp: 22
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Flameskull
+    cr: 4
+    type: undead
+    size: tiny
+    ac: 13
+    hp: 40
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Flesh Golem
+    cr: 5
+    type: construct
+    size: medium
+    ac: 9
+    hp: 93
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Flumph
+    cr: 0.125
+    type: aberration
+    size: small
+    ac: 12
+    hp: 7
+    speed: fly
+    alignment: lawful good
+    legendary: 
+-
+    creature: Flying Snake
+    cr: 0.125
+    type: beast
+    size: tiny
+    ac: 14
+    hp: 5
+    speed: fly, swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Flying Sword
+    cr: 0.25
+    type: construct
+    size: small
+    ac: 17
+    hp: 17
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Fomorian
+    cr: 8
+    type: giant
+    size: huge
+    ac: 14
+    hp: 149
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Frog
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 11
+    hp: 1
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Frost Giant
+    cr: 8
+    type: giant
+    size: huge
+    ac: 15
+    hp: 138
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Galeb Duhr
+    cr: 6
+    type: elemental
+    size: medium
+    ac: 16
+    hp: 85
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Gargoyle
+    cr: 2
+    type: elemental
+    size: medium
+    ac: 15
+    hp: 52
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Gas Spore
+    cr: 0.5
+    type: plant
+    size: large
+    ac: 5
+    hp: 1
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Gelatinous Cube
+    cr: 2
+    type: ooze
+    size: large
+    ac: 6
+    hp: 84
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ghast
+    cr: 2
+    type: undead
+    size: medium
+    ac: 13
+    hp: 36
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Ghost
+    cr: 4
+    type: undead
+    size: medium
+    ac: 11
+    hp: 45
+    speed: fly
+    alignment: any alignment
+    legendary: 
+-
+    creature: Ghoul
+    cr: 1
+    type: undead
+    size: medium
+    ac: 12
+    hp: 22
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Giant Ape
+    cr: 7
+    type: beast
+    size: huge
+    ac: 12
+    hp: 157
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Badger
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 10
+    hp: 13
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Bat
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 13
+    hp: 22
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Boar
+    cr: 2
+    type: beast
+    size: large
+    ac: 12
+    hp: 42
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Centipede
+    cr: 0.25
+    type: beast
+    size: small
+    ac: 13
+    hp: 4
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Constrictor Snake
+    cr: 2
+    type: beast
+    size: huge
+    ac: 12
+    hp: 60
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Crab
+    cr: 0.125
+    type: beast
+    size: medium
+    ac: 15
+    hp: 13
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Crocodile
+    cr: 5
+    type: beast
+    size: huge
+    ac: 14
+    hp: 85
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Eagle
+    cr: 1
+    type: beast
+    size: large
+    ac: 13
+    hp: 26
+    speed: fly
+    alignment: neutral good
+    legendary: 
+-
+    creature: Giant Elk
+    cr: 2
+    type: beast
+    size: huge
+    ac: 14
+    hp: 42
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Fire Beetle
+    cr: 0
+    type: beast
+    size: small
+    ac: 13
+    hp: 4
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Frog
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 11
+    hp: 18
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Goat
+    cr: 0.5
+    type: beast
+    size: large
+    ac: 11
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Hyena
+    cr: 1
+    type: beast
+    size: large
+    ac: 12
+    hp: 45
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Lizard
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 12
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Octopus
+    cr: 1
+    type: beast
+    size: large
+    ac: 11
+    hp: 52
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Owl
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 12
+    hp: 19
+    speed: fly
+    alignment: neutral
+    legendary: 
+-
+    creature: Giant Poisonous Snake
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 14
+    hp: 11
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Rat
+    cr: 0.125
+    type: beast
+    size: small
+    ac: 12
+    hp: 7
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Scorpion
+    cr: 3
+    type: beast
+    size: large
+    ac: 15
+    hp: 52
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Sea Horse
+    cr: 0.5
+    type: beast
+    size: large
+    ac: 13
+    hp: 16
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Shark
+    cr: 5
+    type: beast
+    size: huge
+    ac: 13
+    hp: 126
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Spider
+    cr: 1
+    type: beast
+    size: large
+    ac: 14
+    hp: 26
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Toad
+    cr: 1
+    type: beast
+    size: large
+    ac: 11
+    hp: 39
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Vulture
+    cr: 1
+    type: beast
+    size: large
+    ac: 10
+    hp: 22
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Giant Wasp
+    cr: 0.5
+    type: beast
+    size: medium
+    ac: 12
+    hp: 13
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Weasel
+    cr: 0.125
+    type: beast
+    size: medium
+    ac: 13
+    hp: 9
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Giant Wolf Spider
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 13
+    hp: 11
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Gibbering Mouther
+    cr: 2
+    type: aberration
+    size: medium
+    ac: 9
+    hp: 67
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Githyanki Knight
+    cr: 8
+    type: humanoid (gith)
+    size: medium
+    ac: 18
+    hp: 91
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Githyanki Warrior
+    cr: 3
+    type: humanoid (gith)
+    size: medium
+    ac: 17
+    hp: 49
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Githzerai Monk
+    cr: 2
+    type: humanoid (gith)
+    size: medium
+    ac: 14
+    hp: 38
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Githzerai Zerth
+    cr: 6
+    type: humanoid (gith)
+    size: medium
+    ac: 17
+    hp: 84
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Glabrezu
+    cr: 9
+    type: fiend (demon)
+    size: large
+    ac: 17
+    hp: 157
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Gladiator
+    cr: 5
+    type: humanoid (any race)
+    size: medium
+    ac: 16
+    hp: 112
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Gnoll
+    cr: 0.5
+    type: humanoid (gnoll)
+    size: medium
+    ac: 15
+    hp: 22
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Gnoll Fang of Yeenoghu
+    cr: 4
+    type: fiend (gnoll)
+    size: medium
+    ac: 14
+    hp: 65
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Gnoll Pack Lord
+    cr: 2
+    type: humanoid (gnoll)
+    size: medium
+    ac: 15
+    hp: 49
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Goat
+    cr: 0
+    type: beast
+    size: medium
+    ac: 10
+    hp: 4
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Goblin
+    cr: 0.25
+    type: humanoid (goblinoid)
+    size: small
+    ac: 15
+    hp: 7
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Goblin Boss
+    cr: 1
+    type: humanoid (goblinoid)
+    size: small
+    ac: 17
+    hp: 21
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Gold Dragon Wyrmling
+    cr: 3
+    type: dragon (metallic)
+    size: medium
+    ac: 17
+    hp: 60
+    speed: fly, swim
+    alignment: lawful good
+    legendary: 
+-
+    creature: Gorgon
+    cr: 5
+    type: monstrosity
+    size: large
+    ac: 19
+    hp: 114
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Goristro
+    cr: 17
+    type: fiend (demon)
+    size: huge
+    ac: 19
+    hp: 310
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Gray Ooze
+    cr: 0.5
+    type: ooze
+    size: medium
+    ac: 8
+    hp: 22
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Gray Slaad
+    cr: 9
+    type: aberration (shapechanger)
+    size: medium
+    ac: 18
+    hp: 127
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Green Dragon Wyrmling
+    cr: 2
+    type: dragon (chromatic)
+    size: medium
+    ac: 17
+    hp: 38
+    speed: fly, swim
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Green Hag
+    cr: 3
+    type: fey
+    size: medium
+    ac: 17
+    hp: 82
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Green Slaad
+    cr: 8
+    type: aberration (shapechanger)
+    size: large
+    ac: 16
+    hp: 127
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Grell
+    cr: 3
+    type: aberration
+    size: medium
+    ac: 12
+    hp: 55
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Grick
+    cr: 2
+    type: monstrosity
+    size: medium
+    ac: 14
+    hp: 27
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Grick alpha
+    cr: 7
+    type: monstrosity
+    size: large
+    ac: 18
+    hp: 75
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Griffon
+    cr: 2
+    type: monstrosity
+    size: large
+    ac: 12
+    hp: 59
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Grimlock
+    cr: 0.25
+    type: humanoid (grimlock)
+    size: medium
+    ac: 11
+    hp: 11
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Guard
+    cr: 0.125
+    type: humanoid (any race)
+    size: medium
+    ac: 16
+    hp: 11
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Guardian Naga
+    cr: 10
+    type: monstrosity
+    size: large
+    ac: 18
+    hp: 127
+    speed: 
+    alignment: lawful good
+    legendary: 
+-
+    creature: Gynosphinx
+    cr: 11
+    type: monstrosity
+    size: large
+    ac: 17
+    hp: 136
+    speed: fly
+    alignment: lawful neutral
+    legendary: legendary
+-
+    creature: Half-Ogre
+    cr: 1
+    type: giant
+    size: large
+    ac: 12
+    hp: 30
+    speed: 
+    alignment: any chaotic alignment
+    legendary: 
+-
+    creature: Half-Red Dragon Veteran
+    cr: 5
+    type: humanoid (human)
+    size: medium
+    ac: 18
+    hp: 65
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Harpy
+    cr: 1
+    type: monstrosity
+    size: medium
+    ac: 11
+    hp: 38
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Hawk
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 13
+    hp: 1
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Hell Hound
+    cr: 3
+    type: fiend
+    size: medium
+    ac: 15
+    hp: 45
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Helmed Horror
+    cr: 4
+    type: construct
+    size: medium
+    ac: 20
+    hp: 60
+    speed: fly
+    alignment: neutral
+    legendary: 
+-
+    creature: Hezrou
+    cr: 8
+    type: fiend (demon)
+    size: large
+    ac: 16
+    hp: 136
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Hill Giant
+    cr: 5
+    type: giant
+    size: huge
+    ac: 13
+    hp: 105
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Hippogriff
+    cr: 1
+    type: monstrosity
+    size: large
+    ac: 11
+    hp: 19
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Hobgoblin
+    cr: 0.5
+    type: humanoid (goblinoid)
+    size: medium
+    ac: 18
+    hp: 11
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Hobgoblin Captain
+    cr: 3
+    type: humanoid (goblinoid)
+    size: medium
+    ac: 17
+    hp: 39
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Hobgoblin Warlord
+    cr: 6
+    type: humanoid (goblinoid)
+    size: medium
+    ac: 20
+    hp: 97
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Homunculus
+    cr: 0
+    type: construct
+    size: tiny
+    ac: 13
+    hp: 5
+    speed: fly
+    alignment: neutral
+    legendary: 
+-
+    creature: Hook Horror
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 15
+    hp: 75
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Horned Devil
+    cr: 11
+    type: fiend (devil)
+    size: large
+    ac: 18
+    hp: 178
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Hunter Shark
+    cr: 2
+    type: beast
+    size: large
+    ac: 12
+    hp: 45
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Hydra
+    cr: 8
+    type: monstrosity
+    size: huge
+    ac: 15
+    hp: 172
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Hyena
+    cr: 0
+    type: beast
+    size: medium
+    ac: 11
+    hp: 5
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ice Devil
+    cr: 14
+    type: fiend (devil)
+    size: large
+    ac: 18
+    hp: 180
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Ice Mephit
+    cr: 0.5
+    type: elemental
+    size: small
+    ac: 11
+    hp: 21
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Imp
+    cr: 1
+    type: fiend (devil, shapechanger)
+    size: tiny
+    ac: 13
+    hp: 10
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Intellect Devourer
+    cr: 2
+    type: aberration
+    size: tiny
+    ac: 12
+    hp: 21
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Invisible Stalker
+    cr: 6
+    type: elemental
+    size: medium
+    ac: 14
+    hp: 104
+    speed: fly
+    alignment: neutral
+    legendary: 
+-
+    creature: Iron Golem
+    cr: 16
+    type: construct
+    size: large
+    ac: 20
+    hp: 210
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Jackal
+    cr: 0
+    type: beast
+    size: small
+    ac: 12
+    hp: 3
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Jackalwere
+    cr: 0.5
+    type: humanoid (shapechanger)
+    size: medium
+    ac: 12
+    hp: 18
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Kenku
+    cr: 0.25
+    type: humanoid (kenku)
+    size: medium
+    ac: 13
+    hp: 13
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Killer Whale
+    cr: 3
+    type: beast
+    size: huge
+    ac: 12
+    hp: 90
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Knight
+    cr: 3
+    type: humanoid (any race)
+    size: medium
+    ac: 18
+    hp: 52
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Kobold
+    cr: 0.125
+    type: humanoid (kobold)
+    size: small
+    ac: 12
+    hp: 5
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Kraken
+    cr: 23
+    type: monstrosity (titan)
+    size: gargantuan
+    ac: 18
+    hp: 472
+    speed: swim
+    alignment: chaotic evil
+    legendary: legendary
+-
+    creature: Kuo-toa
+    cr: 0.25
+    type: humanoid (kuo-toa)
+    size: medium
+    ac: 13
+    hp: 18
+    speed: swim
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Kuo-toa Archpriest
+    cr: 6
+    type: humanoid (kuo-toa)
+    size: medium
+    ac: 13
+    hp: 97
+    speed: swim
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Kuo-toa Whip
+    cr: 1
+    type: humanoid (kuo-toa)
+    size: medium
+    ac: 11
+    hp: 65
+    speed: swim
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Lamia
+    cr: 4
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 97
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Lemure
+    cr: 0
+    type: fiend (devil)
+    size: medium
+    ac: 7
+    hp: 13
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Lich
+    cr: 21
+    type: undead
+    size: medium
+    ac: 17
+    hp: 135
+    speed: 
+    alignment: any evil alignment
+    legendary: legendary
+-
+    creature: Lion
+    cr: 1
+    type: beast
+    size: large
+    ac: 12
+    hp: 26
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Lizard
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 10
+    hp: 2
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Lizard King/Queen
+    cr: 4
+    type: humanoid (lizardfolk)
+    size: medium
+    ac: 15
+    hp: 78
+    speed: swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Lizardfolk
+    cr: 0.5
+    type: humanoid (lizardfolk)
+    size: medium
+    ac: 15
+    hp: 22
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Lizardfolk Shaman
+    cr: 2
+    type: humanoid (lizardfolk)
+    size: medium
+    ac: 13
+    hp: 27
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Mage
+    cr: 6
+    type: humanoid (any race)
+    size: medium
+    ac: 12
+    hp: 40
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Magma Mephit
+    cr: 0.5
+    type: elemental
+    size: small
+    ac: 11
+    hp: 22
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Magmin
+    cr: 0.5
+    type: elemental
+    size: small
+    ac: 14
+    hp: 9
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Mammoth
+    cr: 6
+    type: beast
+    size: huge
+    ac: 13
+    hp: 126
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Manes
+    cr: 0.125
+    type: fiend (demon)
+    size: small
+    ac: 9
+    hp: 9
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Manticore
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 14
+    hp: 68
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Marid
+    cr: 11
+    type: elemental
+    size: large
+    ac: 17
+    hp: 229
+    speed: fly, swim
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Marilith
+    cr: 16
+    type: fiend (demon)
+    size: large
+    ac: 18
+    hp: 189
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Mastiff
+    cr: 0.125
+    type: beast
+    size: medium
+    ac: 12
+    hp: 5
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Medusa
+    cr: 6
+    type: monstrosity
+    size: medium
+    ac: 15
+    hp: 127
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Merfolk
+    cr: 0.125
+    type: humanoid (merfolk)
+    size: medium
+    ac: 11
+    hp: 11
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Merrow
+    cr: 2
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 45
+    speed: swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Mezzoloth
+    cr: 5
+    type: fiend (yugoloth)
+    size: medium
+    ac: 18
+    hp: 75
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Mimic
+    cr: 2
+    type: monstrosity (shapechanger)
+    size: medium
+    ac: 12
+    hp: 58
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Mind Flayer
+    cr: 7
+    type: aberration
+    size: medium
+    ac: 15
+    hp: 71
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Minotaur
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 14
+    hp: 76
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Minotaur Skeleton
+    cr: 2
+    type: undead
+    size: large
+    ac: 12
+    hp: 67
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Monodrone
+    cr: 0.125
+    type: construct
+    size: medium
+    ac: 15
+    hp: 5
+    speed: fly
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Mud Mephit
+    cr: 0.25
+    type: elemental
+    size: small
+    ac: 11
+    hp: 27
+    speed: fly, swim
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Mule
+    cr: 0.125
+    type: beast
+    size: medium
+    ac: 10
+    hp: 11
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Mummy
+    cr: 3
+    type: undead
+    size: medium
+    ac: 11
+    hp: 58
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Mummy Lord
+    cr: 15
+    type: undead
+    size: medium
+    ac: 17
+    hp: 97
+    speed: 
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Myconid adult
+    cr: 0.5
+    type: plant
+    size: medium
+    ac: 12
+    hp: 22
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Myconid Sovereign
+    cr: 2
+    type: plant
+    size: large
+    ac: 13
+    hp: 60
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Myconid sprout
+    cr: 0
+    type: plant
+    size: small
+    ac: 10
+    hp: 7
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Nalfeshnee
+    cr: 13
+    type: fiend (demon)
+    size: large
+    ac: 18
+    hp: 184
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Needle Blight
+    cr: 0.25
+    type: plant
+    size: medium
+    ac: 12
+    hp: 11
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Night Hag
+    cr: 5
+    type: fiend
+    size: medium
+    ac: 17
+    hp: 112
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Nightmare
+    cr: 3
+    type: fiend
+    size: large
+    ac: 13
+    hp: 68
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Noble
+    cr: 0.125
+    type: humanoid (any race)
+    size: medium
+    ac: 15
+    hp: 9
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Nothic
+    cr: 2
+    type: aberration
+    size: medium
+    ac: 15
+    hp: 45
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Nycaloth
+    cr: 9
+    type: fiend (yugoloth)
+    size: large
+    ac: 18
+    hp: 123
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Ochre Jelly
+    cr: 2
+    type: ooze
+    size: large
+    ac: 8
+    hp: 45
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Octopus
+    cr: 0
+    type: beast
+    size: small
+    ac: 12
+    hp: 3
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ogre
+    cr: 2
+    type: giant
+    size: large
+    ac: 11
+    hp: 59
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Ogre Zombie
+    cr: 2
+    type: undead
+    size: large
+    ac: 8
+    hp: 85
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Oni
+    cr: 7
+    type: giant
+    size: large
+    ac: 16
+    hp: 110
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Orc
+    cr: 0.5
+    type: humanoid (orc)
+    size: medium
+    ac: 13
+    hp: 15
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Orc Eye of Gruumsh
+    cr: 2
+    type: humanoid (orc)
+    size: medium
+    ac: 16
+    hp: 45
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Orc War Chief
+    cr: 4
+    type: humanoid (orc)
+    size: medium
+    ac: 16
+    hp: 93
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Orog
+    cr: 2
+    type: humanoid (orc)
+    size: medium
+    ac: 18
+    hp: 42
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Otyugh
+    cr: 5
+    type: aberration
+    size: large
+    ac: 14
+    hp: 114
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Owl
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 11
+    hp: 1
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Owlbear
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 59
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Panther
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 12
+    hp: 13
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Pegasus
+    cr: 2
+    type: celestial
+    size: large
+    ac: 12
+    hp: 59
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Pentadrone
+    cr: 2
+    type: construct
+    size: large
+    ac: 16
+    hp: 32
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Peryton
+    cr: 2
+    type: monstrosity
+    size: medium
+    ac: 13
+    hp: 33
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Phase Spider
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 32
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Piercer
+    cr: 0.5
+    type: monstrosity
+    size: medium
+    ac: 15
+    hp: 22
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Pit Fiend
+    cr: 20
+    type: fiend (devil)
+    size: large
+    ac: 19
+    hp: 300
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Pixie
+    cr: 0.25
+    type: fey
+    size: tiny
+    ac: 15
+    hp: 1
+    speed: fly
+    alignment: neutral good
+    legendary: 
+-
+    creature: Planetar
+    cr: 16
+    type: celestial
+    size: large
+    ac: 19
+    hp: 200
+    speed: fly
+    alignment: lawful good
+    legendary: 
+-
+    creature: Plesiosaurus
+    cr: 2
+    type: beast
+    size: large
+    ac: 13
+    hp: 68
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Poisonous Snake
+    cr: 0.125
+    type: beast
+    size: tiny
+    ac: 13
+    hp: 2
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Polar Bear
+    cr: 2
+    type: beast
+    size: large
+    ac: 12
+    hp: 42
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Pony
+    cr: 0.125
+    type: beast
+    size: medium
+    ac: 10
+    hp: 11
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Priest
+    cr: 2
+    type: humanoid (any race)
+    size: medium
+    ac: 13
+    hp: 27
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Pseudodragon
+    cr: 0.25
+    type: dragon
+    size: tiny
+    ac: 13
+    hp: 7
+    speed: fly
+    alignment: neutral good
+    legendary: 
+-
+    creature: Pteranodon
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 13
+    hp: 13
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Purple Worm
+    cr: 15
+    type: monstrosity
+    size: gargantuan
+    ac: 18
+    hp: 247
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Quadrone
+    cr: 1
+    type: construct
+    size: medium
+    ac: 16
+    hp: 22
+    speed: fly
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Quaggoth
+    cr: 2
+    type: humanoid (quaggoth)
+    size: medium
+    ac: 13
+    hp: 45
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Quaggoth spore servant
+    cr: 1
+    type: plant
+    size: medium
+    ac: 13
+    hp: 45
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Quasit
+    cr: 1
+    type: fiend (demon, shapechanger)
+    size: tiny
+    ac: 13
+    hp: 7
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Quipper
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 13
+    hp: 1
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Rakshasa
+    cr: 13
+    type: fiend
+    size: medium
+    ac: 16
+    hp: 110
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Rat
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 10
+    hp: 1
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Raven
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 12
+    hp: 1
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Red Dragon Wyrmling
+    cr: 4
+    type: dragon (chromatic)
+    size: medium
+    ac: 17
+    hp: 75
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Red Slaad
+    cr: 5
+    type: aberration
+    size: large
+    ac: 14
+    hp: 93
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Reef Shark
+    cr: 0.5
+    type: beast
+    size: medium
+    ac: 12
+    hp: 22
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Remorhaz
+    cr: 11
+    type: monstrosity
+    size: huge
+    ac: 17
+    hp: 195
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Revenant
+    cr: 5
+    type: undead
+    size: medium
+    ac: 13
+    hp: 136
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Rhinoceros
+    cr: 2
+    type: beast
+    size: large
+    ac: 11
+    hp: 45
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Riding Horse
+    cr: 0.25
+    type: beast
+    size: large
+    ac: 10
+    hp: 13
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Roc
+    cr: 11
+    type: monstrosity
+    size: gargantuan
+    ac: 15
+    hp: 248
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Roper
+    cr: 5
+    type: monstrosity
+    size: large
+    ac: 20
+    hp: 93
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Rug of Smothering
+    cr: 2
+    type: construct
+    size: large
+    ac: 12
+    hp: 33
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Rust Monster
+    cr: 0.5
+    type: monstrosity
+    size: medium
+    ac: 14
+    hp: 27
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Saber-Toothed Tiger
+    cr: 2
+    type: beast
+    size: large
+    ac: 12
+    hp: 52
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Sahuagin
+    cr: 0.5
+    type: humanoid (sahuagin)
+    size: medium
+    ac: 12
+    hp: 22
+    speed: swim
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Sahuagin Baron
+    cr: 5
+    type: humanoid (sahuagin)
+    size: large
+    ac: 16
+    hp: 76
+    speed: swim
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Sahuagin Priestess
+    cr: 2
+    type: humanoid (sahuagin)
+    size: medium
+    ac: 12
+    hp: 33
+    speed: swim
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Salamander
+    cr: 5
+    type: elemental
+    size: large
+    ac: 15
+    hp: 90
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Satyr
+    cr: 0.5
+    type: fey
+    size: medium
+    ac: 14
+    hp: 31
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Scarecrow
+    cr: 1
+    type: construct
+    size: medium
+    ac: 11
+    hp: 36
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Scorpion
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 11
+    hp: 1
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Scout
+    cr: 0.5
+    type: humanoid (any race)
+    size: medium
+    ac: 13
+    hp: 16
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Sea Hag
+    cr: 2
+    type: fey
+    size: medium
+    ac: 14
+    hp: 52
+    speed: swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Sea Horse
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 11
+    hp: 1
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Shadow
+    cr: 0.5
+    type: undead
+    size: medium
+    ac: 12
+    hp: 16
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Shadow Demon
+    cr: 4
+    type: fiend (demon)
+    size: medium
+    ac: 13
+    hp: 66
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Shambling Mound
+    cr: 5
+    type: plant
+    size: large
+    ac: 15
+    hp: 136
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Shield Guardian
+    cr: 7
+    type: construct
+    size: large
+    ac: 17
+    hp: 142
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Shrieker
+    cr: 0
+    type: plant
+    size: medium
+    ac: 5
+    hp: 13
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Silver Dragon Wyrmling
+    cr: 2
+    type: dragon (metallic)
+    size: medium
+    ac: 17
+    hp: 45
+    speed: fly
+    alignment: lawful good
+    legendary: 
+-
+    creature: Skeleton
+    cr: 0.25
+    type: undead
+    size: medium
+    ac: 13
+    hp: 13
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Slaad Tadpole
+    cr: 0.125
+    type: aberration
+    size: tiny
+    ac: 12
+    hp: 10
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Smoke Mephit
+    cr: 0.25
+    type: elemental
+    size: small
+    ac: 12
+    hp: 22
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Solar
+    cr: 21
+    type: celestial
+    size: large
+    ac: 21
+    hp: 243
+    speed: fly
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Spectator
+    cr: 3
+    type: aberration
+    size: medium
+    ac: 14
+    hp: 39
+    speed: fly
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Specter
+    cr: 1
+    type: undead
+    size: medium
+    ac: 12
+    hp: 22
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Spider
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 12
+    hp: 1
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Spined Devil
+    cr: 2
+    type: fiend (devil)
+    size: small
+    ac: 13
+    hp: 22
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Spirit Naga
+    cr: 8
+    type: monstrosity
+    size: large
+    ac: 15
+    hp: 75
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Sprite
+    cr: 0.25
+    type: fey
+    size: tiny
+    ac: 15
+    hp: 2
+    speed: fly
+    alignment: neutral good
+    legendary: 
+-
+    creature: Spy
+    cr: 1
+    type: humanoid (any race)
+    size: medium
+    ac: 12
+    hp: 27
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Steam Mephit
+    cr: 0.25
+    type: elemental
+    size: small
+    ac: 10
+    hp: 21
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Stirge
+    cr: 0.125
+    type: beast
+    size: tiny
+    ac: 14
+    hp: 2
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Stone Giant
+    cr: 7
+    type: giant
+    size: huge
+    ac: 17
+    hp: 126
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Stone Golem
+    cr: 10
+    type: construct
+    size: large
+    ac: 17
+    hp: 178
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Storm Giant
+    cr: 13
+    type: giant
+    size: huge
+    ac: 16
+    hp: 230
+    speed: swim
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Succubus
+    cr: 4
+    type: fiend (shapechanger)
+    size: medium
+    ac: 15
+    hp: 66
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Swarm of Bats
+    cr: 0.25
+    type: swarm of tiny beasts
+    size: medium
+    ac: 12
+    hp: 22
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Swarm of Insects
+    cr: 0.5
+    type: swarm of tiny beasts
+    size: medium
+    ac: 12
+    hp: 22
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Swarm of Poisonous Snakes
+    cr: 2
+    type: swarm of tiny beasts
+    size: medium
+    ac: 14
+    hp: 36
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Swarm of Quippers
+    cr: 1
+    type: swarm of tiny beasts
+    size: medium
+    ac: 13
+    hp: 28
+    speed: swim
+    alignment: unaligned
+    legendary: 
+-
+    creature: Swarm of Rats
+    cr: 0.25
+    type: swarm of tiny beasts
+    size: medium
+    ac: 10
+    hp: 24
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Swarm of Ravens
+    cr: 0.25
+    type: swarm of tiny beasts
+    size: medium
+    ac: 12
+    hp: 24
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Tarrasque
+    cr: 30
+    type: monstrosity (titan)
+    size: gargantuan
+    ac: 25
+    hp: 676
+    speed: 
+    alignment: unaligned
+    legendary: legendary
+-
+    creature: Thri-kreen
+    cr: 1
+    type: humanoid (thri-kreen)
+    size: medium
+    ac: 15
+    hp: 33
+    speed: 
+    alignment: chaotic neutral
+    legendary: 
+-
+    creature: Thug
+    cr: 0.5
+    type: humanoid (any race)
+    size: medium
+    ac: 11
+    hp: 32
+    speed: 
+    alignment: any non-good alignment
+    legendary: 
+-
+    creature: Tiger
+    cr: 1
+    type: beast
+    size: large
+    ac: 12
+    hp: 37
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Treant
+    cr: 9
+    type: plant
+    size: huge
+    ac: 16
+    hp: 138
+    speed: 
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Tribal Warrior
+    cr: 0.125
+    type: humanoid (any race)
+    size: medium
+    ac: 12
+    hp: 11
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Triceratops
+    cr: 5
+    type: beast
+    size: huge
+    ac: 13
+    hp: 95
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Tridrone
+    cr: 0.5
+    type: construct
+    size: medium
+    ac: 15
+    hp: 16
+    speed: 
+    alignment: lawful neutral
+    legendary: 
+-
+    creature: Troglodyte
+    cr: 0.25
+    type: humanoid (troglodyte)
+    size: medium
+    ac: 11
+    hp: 13
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Troll
+    cr: 5
+    type: giant
+    size: large
+    ac: 15
+    hp: 84
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Twig Blight
+    cr: 0.125
+    type: plant
+    size: small
+    ac: 13
+    hp: 4
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Tyrannosaurus Rex
+    cr: 8
+    type: beast
+    size: huge
+    ac: 13
+    hp: 136
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Ultroloth
+    cr: 13
+    type: fiend (yugoloth)
+    size: medium
+    ac: 19
+    hp: 153
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Umber Hulk
+    cr: 5
+    type: monstrosity
+    size: large
+    ac: 18
+    hp: 93
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Unicorn
+    cr: 5
+    type: celestial
+    size: large
+    ac: 12
+    hp: 67
+    speed: 
+    alignment: lawful good
+    legendary: legendary
+-
+    creature: Vampire
+    cr: 13
+    type: undead (shapechanger)
+    size: medium
+    ac: 16
+    hp: 144
+    speed: 
+    alignment: lawful evil
+    legendary: legendary
+-
+    creature: Vampire Spawn
+    cr: 5
+    type: undead
+    size: medium
+    ac: 15
+    hp: 82
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Veteran
+    cr: 3
+    type: humanoid (any race)
+    size: medium
+    ac: 17
+    hp: 58
+    speed: 
+    alignment: any alignment
+    legendary: 
+-
+    creature: Vine Blight
+    cr: 0.5
+    type: plant
+    size: medium
+    ac: 12
+    hp: 26
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Violet Fungus
+    cr: 0.25
+    type: plant
+    size: medium
+    ac: 5
+    hp: 18
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Vrock
+    cr: 6
+    type: fiend (demon)
+    size: large
+    ac: 15
+    hp: 104
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Vulture
+    cr: 0
+    type: beast
+    size: medium
+    ac: 10
+    hp: 5
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Warhorse
+    cr: 0.5
+    type: beast
+    size: large
+    ac: 11
+    hp: 19
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Warhorse Skeleton
+    cr: 0.5
+    type: undead
+    size: large
+    ac: 13
+    hp: 22
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Water Elemental
+    cr: 5
+    type: elemental
+    size: large
+    ac: 14
+    hp: 114
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Water Weird
+    cr: 3
+    type: elemental
+    size: large
+    ac: 13
+    hp: 58
+    speed: swim
+    alignment: neutral
+    legendary: 
+-
+    creature: Weasel
+    cr: 0
+    type: beast
+    size: tiny
+    ac: 13
+    hp: 1
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Werebear
+    cr: 5
+    type: humanoid (human, shapechanger)
+    size: medium
+    ac: 10
+    hp: 135
+    speed: 
+    alignment: neutral good
+    legendary: 
+-
+    creature: Wereboar
+    cr: 4
+    type: humanoid (human, shapechanger)
+    size: medium
+    ac: 10
+    hp: 78
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Wererat
+    cr: 2
+    type: humanoid (human, shapechanger)
+    size: medium
+    ac: 12
+    hp: 33
+    speed: 
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Weretiger
+    cr: 4
+    type: humanoid (human, shapechanger)
+    size: medium
+    ac: 12
+    hp: 120
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Werewolf
+    cr: 3
+    type: humanoid (human, shapechanger)
+    size: medium
+    ac: 11
+    hp: 58
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: White Dragon Wyrmling
+    cr: 2
+    type: dragon (chromatic)
+    size: medium
+    ac: 16
+    hp: 32
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Wight
+    cr: 3
+    type: undead
+    size: medium
+    ac: 14
+    hp: 45
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: 'Will-o''-Wisp'
+    cr: 2
+    type: undead
+    size: tiny
+    ac: 19
+    hp: 22
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Winged Kobold
+    cr: 0.25
+    type: humanoid (kobold)
+    size: small
+    ac: 13
+    hp: 7
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Winter Wolf
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 75
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Wolf
+    cr: 0.25
+    type: beast
+    size: medium
+    ac: 13
+    hp: 11
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Worg
+    cr: 0.5
+    type: monstrosity
+    size: large
+    ac: 13
+    hp: 26
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Wraith
+    cr: 5
+    type: undead
+    size: medium
+    ac: 13
+    hp: 67
+    speed: fly
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Wyvern
+    cr: 6
+    type: dragon
+    size: large
+    ac: 13
+    hp: 110
+    speed: fly
+    alignment: unaligned
+    legendary: 
+-
+    creature: Xorn
+    cr: 5
+    type: elemental
+    size: medium
+    ac: 19
+    hp: 73
+    speed: 
+    alignment: neutral
+    legendary: 
+-
+    creature: Yeti
+    cr: 3
+    type: monstrosity
+    size: large
+    ac: 12
+    hp: 51
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Yochlol
+    cr: 10
+    type: fiend (demon, shapechanger)
+    size: medium
+    ac: 15
+    hp: 136
+    speed: 
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Young Black Dragon
+    cr: 7
+    type: dragon (chromatic)
+    size: large
+    ac: 18
+    hp: 127
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Young Blue Dragon
+    cr: 9
+    type: dragon (chromatic)
+    size: large
+    ac: 18
+    hp: 152
+    speed: fly
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Young Brass Dragon
+    cr: 6
+    type: dragon (metallic)
+    size: large
+    ac: 17
+    hp: 110
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Young Bronze Dragon
+    cr: 8
+    type: dragon (metallic)
+    size: large
+    ac: 18
+    hp: 142
+    speed: fly, swim
+    alignment: lawful good
+    legendary: 
+-
+    creature: Young Copper Dragon
+    cr: 7
+    type: dragon (metallic)
+    size: large
+    ac: 17
+    hp: 119
+    speed: fly
+    alignment: chaotic good
+    legendary: 
+-
+    creature: Young Gold Dragon
+    cr: 10
+    type: dragon (metallic)
+    size: large
+    ac: 18
+    hp: 178
+    speed: fly, swim
+    alignment: lawful good
+    legendary: 
+-
+    creature: Young Green Dragon
+    cr: 8
+    type: dragon (chromatic)
+    size: large
+    ac: 18
+    hp: 136
+    speed: fly, swim
+    alignment: lawful evil
+    legendary: 
+-
+    creature: Young Red Dragon
+    cr: 10
+    type: dragon (chromatic)
+    size: large
+    ac: 18
+    hp: 178
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Young Red Shadow Dragon
+    cr: 13
+    type: dragon
+    size: large
+    ac: 18
+    hp: 178
+    speed: fly
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Young Remorhaz
+    cr: 5
+    type: monstrosity
+    size: large
+    ac: 14
+    hp: 93
+    speed: 
+    alignment: unaligned
+    legendary: 
+-
+    creature: Young Silver Dragon
+    cr: 9
+    type: dragon (metallic)
+    size: large
+    ac: 18
+    hp: 168
+    speed: fly
+    alignment: lawful good
+    legendary: 
+-
+    creature: Young White Dragon
+    cr: 6
+    type: dragon (chromatic)
+    size: large
+    ac: 17
+    hp: 133
+    speed: fly, swim
+    alignment: chaotic evil
+    legendary: 
+-
+    creature: Yuan-ti Abomination
+    cr: 7
+    type: monstrosity (shapechanger, yuan-ti)
+    size: large
+    ac: 15
+    hp: 127
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Yuan-ti Malison
+    cr: 3
+    type: monstrosity (shapechanger, yuan-ti)
+    size: medium
+    ac: 12
+    hp: 66
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Yuan-ti Pureblood
+    cr: 1
+    type: humanoid (yuan-ti)
+    size: medium
+    ac: 11
+    hp: 40
+    speed: 
+    alignment: neutral evil
+    legendary: 
+-
+    creature: Zombie
+    cr: 0.25
+    type: undead
+    size: medium
+    ac: 8
+    hp: 22
+    speed: 
+    alignment: neutral evil
+    legendary: 
