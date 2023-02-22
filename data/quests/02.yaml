@@ -2,8 +2,9 @@ title: The Missing Heirloom
 introduction: The adventurer has been hired by a wealthy merchant to retrieve a valuable family heirloom that has been stolen. The thief was last seen heading towards a nearby abandoned mine. The merchant is offering a reward of 200 gold pieces for its safe return.
 travel: The mine is a few hours’ journey from the town. The adventurer can travel on foot or hire a horse to get there quicker. The mine entrance is hidden, so the adventurer will need to navigate through the forest to find it.
 location: The mine is infested with goblins who have set up a small camp inside. The goblins have the heirloom, but they won’t give it up without a fight. The adventurer will need to defeat the goblin guards to gain access to the heirloom.
-wrap-up: Once the heirloom is retrieved, the adventurer can return it to the merchant for the reward. The merchant is grateful and may offer additional work in the future.
-number_of_encounters: 1d3+1
+wrapup: Once the heirloom is retrieved, the adventurer can return it to the merchant for the reward. The merchant is grateful and may offer additional work in the future.
+number_of_encounters: 1d4+1
+cr: 1
 encounters:
     -
         description: One or two goblin guards at the mine entrance
@@ -15,7 +16,7 @@ encounters:
         amount: 4
     -
         final: true
-        description: The goblin boss is a fierce warrior with a sharp sword and a short temper. He will fight to the death to protect his territory and the stolen heirloom. The adventurer will need to use all their skills and abilities to defeat him.
+        description: The goblin boss is a fierce warrior with a sharp sword and a short temper. He will fight to the death to protect his territory and the stolen heirloom.
         creature: Hobgoblin
         amount: 1
 loot:
