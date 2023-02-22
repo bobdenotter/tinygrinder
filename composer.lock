@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bf52b86a616829733c2296927bf2b62",
+    "content-hash": "9b5df617e63e2c8dbfba26de6423205d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1767,6 +1767,62 @@
                 "source": "https://github.com/phpstan/phpdoc-parser/tree/1.16.1"
             },
             "time": "2023-02-07T18:11:17+00:00"
+        },
+        {
+            "name": "porthou/dicebag",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AnthonyPorthouse/DiceBag.git",
+                "reference": "1059d4776661902577f1f2444b49d4b9a53caa78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AnthonyPorthouse/DiceBag/zipball/1059d4776661902577f1f2444b49d4b9a53caa78",
+                "reference": "1059d4776661902577f1f2444b49d4b9a53caa78",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1.3 || ^8.0.0",
+                "symfony/console": "^4.0|^5.0|^6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpstan/phpstan": "^1.4",
+                "phpunit/phpunit": "^8 || ^9",
+                "roave/security-advisories": "dev-master"
+            },
+            "bin": [
+                "bin/dicebag"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DiceBag\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Porthouse",
+                    "email": "anthony@porthou.se"
+                }
+            ],
+            "description": "Create Dice roll results from standard dice notation",
+            "keywords": [
+                "dice",
+                "rpg"
+            ],
+            "support": {
+                "issues": "https://github.com/AnthonyPorthouse/DiceBag/issues",
+                "source": "https://github.com/AnthonyPorthouse/DiceBag/tree/1.0.0"
+            },
+            "time": "2022-02-14T10:28:47+00:00"
         },
         {
             "name": "psr/cache",

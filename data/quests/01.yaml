@@ -1,0 +1,26 @@
+title: The Missing Villagers
+introduction: The village of Oakvale has been struck by tragedy as several villagers have gone missing. The locals are too scared to investigate, believing that an unknown force has taken them. The village elder, Kethril, seeks brave adventurers to uncover the truth behind the disappearances and bring back any survivors.
+travel: Kethril leads the adventurers to a dense forest, the last known location of the missing villagers. The party soon discovers strange tracks leading deep into the woods. Following the tracks, they come across a hidden cave system, seemingly untouched for years.
+location: As the party explores the cave, they find evidence of a group of goblins who have taken the missing villagers captive. The goblins are led by a ruthless hobgoblin who demands tribute from the villagers in exchange for their safety. The villagers are locked in cells, guarded by the goblins.
+wrap-up: The adventurers must overcome the goblin guards and defeat the hobgoblin to free the villagers. Once the prisoners are safe, they reveal that the hobgoblin was searching for a powerful artifact rumored to be hidden in the forest. The villagers are grateful for the party's bravery and reward them with a magical item and a pouch of gold coins. With the mission accomplished, the adventurers travel back to Oakvale, greeted as heroes by the grateful villagers.
+number_of_encounters: 1d3+1
+encounters:
+    -
+        description: One or two goblin guards at the cave entrance
+        creature: Goblin
+        amount: 1d2
+    -
+        description: Three bandits in the main chamber
+        creature: Bandit
+        amount: 3
+    -
+        final: true
+        description: The goblin boss is a fierce warrior with a sharp sword and a short temper. He will fight to the death to protect his territory and the stolen heirloom. The adventurer will need to use all their skills and abilities to defeat him.
+        creature: Hobgoblin
+        amount: 1
+loot:
+    gold: 10
+    treasure:
+        - tbd
+
+
