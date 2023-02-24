@@ -25,6 +25,8 @@ class CharacterController extends AbstractController
     #[Route('/character/create', name: 'app_character_create')]
     public function create(): Response
     {
+        
+
         return $this->render('character/index.html.twig', [
             'controller_name' => 'CharacterCreate',
             'characters' => $this->getUser()->getCharacters()
