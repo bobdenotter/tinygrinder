@@ -1,20 +1,37 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello CharacterController!{% endblock %}
+{% block title %}Character List{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <h1>Character List</h1>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Class</th>
+            <th>Hitpoints</th>
+            <th>Skill Bonus</th>
+            <th>Armor Class</th>
+            <th>Attack</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for character in characters %}
+            <tr>
+                <td>{{ character.name }}</td>
+                <td>{{ character.species }}</td>
+                <td>{{ character.class }}</td>
+                <td>{{ character.hitpoints }}</td>
+                <td>{{ character.skillBonus }}</td>
+                <td>{{ character.armorClass }}</td>
+                <td>{{ character.attack }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/Users/bob/Sites/tinygrinder/src/Controller/CharacterController.php'|file_link(0) }}">src/Controller/CharacterController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/Users/bob/Sites/tinygrinder/templates/character/index.html.twig'|file_link(0) }}">templates/character/index.html.twig</a></code></li>
-    </ul>
-</div>
+    <a href="{{ path('character_new') }}" class="btn btn-primary">Create a new character</a>
+
 {% endblock %}

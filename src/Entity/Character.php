@@ -19,50 +19,28 @@ class Character
     #[ORM\Column(length: 255)]
     private ?string $name = null;
 
-    #[ORM\Column(length: 255)]
-    private ?string $race = null;
+    #[ORM\Column(type: "string", length: 255)]
+    #[Assert\Choice(choices: ['Fighter', 'Thief', 'Magic-User', 'Cleric'])]
+    private string $class;
 
-    #[ORM\Column(length: 255, nullable: true)]
-    private ?string $class = null;
-
-    #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $STR = 10;
-
-    #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $DEX = 10;
+    #[ORM\Column(type: "string", length: 255)]
+    #[Assert\Choice(choices: ['Human', 'Elf', 'Dwarf', 'Halfling'])]
+    private string $species;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $CON = 10;
+    private ?int $hitpoints = 7;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $INT = 10;
+    private ?int $max_hitpoints = 7;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $WIS = 10;
+    private ?int $skill_bonus = 1;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $CHA = 10;
+    private ?int $armor_class = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $proficiency = 1;
-
-    #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $speed = 25;
-
-    #[ORM\Column]
-    private ?int $HP = 10;
-
-    #[ORM\Column]
-    private ?int $maxHP = 10;
-
-    #[ORM\Column]
-    private ?int $tempHP = 0;
-
-    #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $initiative = 0;
-
-    #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $AC = 10;
+    private ?int $attack = 1;
 
     #[ORM\Column(type: Types::SMALLINT)]
     private ?int $level = 1;
@@ -99,14 +77,15 @@ class Character
         return $this;
     }
 
-    public function getRace(): ?string
+    public function getSpecies(): ?string
     {
-        return $this->race;
+        return $this->species;
     }
 
-    public function setRace(string $race): self
+    public function setSpecies(string $species): self
     {
-        $this->race = $race;
+        $this->species = $species;
+        $this->applySpeciesModifier();
 
         return $this;
     }
@@ -119,126 +98,43 @@ class Character
     public function setClass(?string $class): self
     {
         $this->class = $class;
+        $this->applyClassModifier();
 
         return $this;
     }
 
-    public function getSTR(): ?int
+    public function getSkillBonus(): int
     {
-        return $this->STR;
+        return $this->skill_bonus;
     }
 
-    public function setSTR(int $STR): self
+    public function setSkillBonus(int $skill_bonus): self
     {
-        $this->STR = $STR;
+        $this->skill_bonus = $skill_bonus;
 
         return $this;
     }
 
-    public function getDEX(): ?int
+    public function getHitpoints(): ?int
     {
-        return $this->DEX;
+        return $this->hitpoints;
     }
 
-    public function setDEX(int $DEX): self
+    public function setHitpoints(int $hitpoints): self
     {
-        $this->DEX = $DEX;
+        $this->hitpoints = $hitpoints;
 
         return $this;
     }
 
-    public function getCON(): ?int
+    public function getMaxHitpoints(): ?int
     {
-        return $this->CON;
+        return $this->max_hitpoints;
     }
 
-    public function setCON(int $CON): self
+    public function setMaxHitpoints(int $max_hitpoints): self
     {
-        $this->CON = $CON;
-
-        return $this;
-    }
-
-    public function getINT(): ?int
-    {
-        return $this->INT;
-    }
-
-    public function setINT(int $INT): self
-    {
-        $this->INT = $INT;
-
-        return $this;
-    }
-
-    public function getWIS(): ?int
-    {
-        return $this->WIS;
-    }
-
-    public function setWIS(int $WIS): self
-    {
-        $this->WIS = $WIS;
-
-        return $this;
-    }
-
-    public function getCHA(): ?int
-    {
-        return $this->CHA;
-    }
-
-    public function setCHA(int $CHA): self
-    {
-        $this->CHA = $CHA;
-
-        return $this;
-    }
-
-    public function getProficiency(): ?int
-    {
-        return $this->proficiency;
-    }
-
-    public function setProficiency(int $proficiency): self
-    {
-        $this->proficiency = $proficiency;
-
-        return $this;
-    }
-
-    public function getSpeed(): ?int
-    {
-        return $this->speed;
-    }
-
-    public function setSpeed(int $speed): self
-    {
-        $this->speed = $speed;
-
-        return $this;
-    }
-
-    public function getHP(): ?int
-    {
-        return $this->HP;
-    }
-
-    public function setHP(int $HP): self
-    {
-        $this->HP = $HP;
-
-        return $this;
-    }
-
-    public function getMaxHP(): ?int
-    {
-        return $this->maxHP;
-    }
-
-    public function setMaxHP(int $maxHP): self
-    {
-        $this->maxHP = $maxHP;
+        $this->max_hitpoints = $max_hitpoints;
 
         return $this;
     }
@@ -255,26 +151,24 @@ class Character
         return $this;
     }
 
-    public function getInitiative(): ?int
+    public function getAttack(): ?int
     {
-        return $this->initiative;
+        return $this->attack;
     }
 
-    public function setInitiative(int $initiative): self
+    public function setAttack(?int $attack): void
     {
-        $this->initiative = $initiative;
-
-        return $this;
+        $this->attack = $attack;
     }
 
-    public function getAC(): ?int
+    public function getArmorClass(): ?int
     {
-        return $this->AC;
+        return $this->armor_class;
     }
 
-    public function setAC(int $AC): self
+    public function setArmorClass(int $armor_class): self
     {
-        $this->AC = $AC;
+        $this->armor_class = $armor_class;
 
         return $this;
     }
@@ -343,5 +237,47 @@ class Character
         $this->user = $user;
 
         return $this;
+    }
+
+    private function applyClassModifier(): void
+    {
+        switch ($this->class) {
+            case 'Fighter':
+                $this->hitpoints += 1;
+                $this->attack += 1;
+                break;
+            case 'Thief':
+                $this->skill_bonus += 1;
+                $this->armor_class += 1;
+                break;
+            case 'Magic-User':
+                $this->skill_bonus += 2;
+            $this->hitpoints -= 1;
+            break;
+            case 'Cleric':
+                $this->hitpoints += 1;
+                $this->skill_bonus += 1;
+                break;
+        }
+    }
+
+    private function applySpeciesModifier(): void
+    {
+        switch ($this->species) {
+            case 'Human':
+                break;
+            case 'Elf':
+                $this->skill_bonus += 1;
+                $this->hitpoints -= 1;
+                break;
+            case 'Dwarf':
+                $this->hitpoints += 1;
+                $this->skill_bonus -= 1;
+                break;
+            case 'Halfling':
+                $this->armor_class += 1;
+                $this->attack -= 1;
+                break;
+        }
     }
 }

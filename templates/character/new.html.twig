@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Create a new character{% endblock %}
+
+{% block body %}
+<h1>Create a new character</h1>
+
+    {{ form_start(form) }}
+
+    {{ form_row(form.name) }}
+    {{ form_row(form.hitpoints) }}
+    {{ form_row(form.skill_bonus) }}
+    {{ form_row(form.armor_class) }}
+    {{ form_row(form.attack) }}
+    {{ form_row(form.species) }}
+    <span id="species-description"></span>
+
+    {{ form_row(form.class) }}
+    <span id="class-description"></span>
+
+    {{ form_widget(form) }}
+
+    <button class="btn btn-primary">Create</button>
+    {{ form_end(form) }}
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const speciesSelect = document.getElementById('{{ form.species.vars.id }}');
+            const speciesDescription = document.getElementById('species-description');
+
+            function updateSpeciesDescription() {
+                const selectedOption = speciesSelect.options[speciesSelect.selectedIndex];
+                speciesDescription.textContent = selectedOption.dataset.description;
+            }
+
+            speciesSelect.addEventListener('change', updateSpeciesDescription);
+            updateSpeciesDescription();
+
+            const classSelect = document.getElementById('{{ form.class.vars.id }}');
+            const classDescription = document.getElementById('class-description');
+
+            function updateClassDescription() {
+                const selectedOption = classSelect.options[speciesSelect.selectedIndex];
+                classDescription.textContent = selectedOption.dataset.description;
+            }
+
+            classSelect.addEventListener('change', updateClassDescription);
+            updateClassDescription();
+        });
+    </script>
+
+{% endblock %}
