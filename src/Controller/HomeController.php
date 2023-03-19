@@ -2,9 +2,7 @@
 
 namespace App\Controller;
 
-use DiceBag\Dice\Dice;
 use DiceBag\DiceBag;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 

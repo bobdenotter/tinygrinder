@@ -2,7 +2,6 @@
 
 namespace App\Repository;
 
-use App\Entity\Encounter;
 use App\Entity\Quest;
 use Cocur\Slugify\Slugify;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;

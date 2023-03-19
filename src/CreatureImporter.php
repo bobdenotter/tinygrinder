@@ -20,16 +20,13 @@ class CreatureImporter
 
     public function run()
     {
-
         $creatures = Yaml::parseFile(__DIR__ . '/../data/creatures/creatures.yaml');
 
         // Process Encounters
         foreach ($creatures as $creature) {
-
             $creatureEntity = $this->repository->fromArray($creature);
 
             $this->em->persist($creatureEntity);
-
         }
 
         $this->em->flush();

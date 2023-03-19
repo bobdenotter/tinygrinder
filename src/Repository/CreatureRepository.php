@@ -3,8 +3,6 @@
 namespace App\Repository;
 
 use App\Entity\Creature;
-use App\Entity\Encounter;
-use Cocur\Slugify\Slugify;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

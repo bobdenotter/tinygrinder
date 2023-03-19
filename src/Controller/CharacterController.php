@@ -3,9 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Character;
-use App\Enum\CharacterClass;
 use App\Form\CharacterType;
-use App\Form\NewCharacterType;
 use App\Repository\CharacterRepository;
 use DiceBag\DiceBag;
 use Doctrine\ORM\EntityManagerInterface;
@@ -51,7 +49,6 @@ class CharacterController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-
             $this->entityManager->persist($character);
             $this->entityManager->flush();
 

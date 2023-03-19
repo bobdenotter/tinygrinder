@@ -28,7 +28,6 @@ class QuestImporter
         $files = $finder->files()->in(__DIR__ . '/../data/quests/');
 
         foreach ($finder as $file) {
-
             $quest = Yaml::parseFile($file->getRealPath());
 
             dump($quest['title']);
@@ -37,22 +36,17 @@ class QuestImporter
 
             // Process Encounters
             foreach ($quest['encounters'] as $encounter) {
-
                 $encounterEntity = $this->encounterRepository->fromArray($encounter);
 
                 $questEntity->addEncounter($encounterEntity);
 
                 $this->em->persist($encounterEntity);
 
-//                dump($encounterEntity);
-
+                //                dump($encounterEntity);
             }
 
             $this->em->persist($questEntity);
             $this->em->flush();
-
         }
-
     }
-
 }

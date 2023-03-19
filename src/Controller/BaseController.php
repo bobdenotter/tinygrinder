@@ -13,7 +13,6 @@ class BaseController extends AbstractController
 
     public function __construct(Security $security, CharacterRepository $characterRepository)
     {
-
         $this->security = $security;
         $this->characterRepository = $characterRepository;
     }

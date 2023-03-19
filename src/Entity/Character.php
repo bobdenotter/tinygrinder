@@ -252,8 +252,8 @@ class Character
                 break;
             case 'Magic-User':
                 $this->skill_bonus += 2;
-            $this->hitpoints -= 1;
-            break;
+                $this->hitpoints -= 1;
+                break;
             case 'Cleric':
                 $this->hitpoints += 1;
                 $this->skill_bonus += 1;
