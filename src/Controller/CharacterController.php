@@ -45,13 +45,13 @@ class CharacterController extends AbstractController
         $character = new Character();
         $character->setUser($this->security->getUser());
 
-
         $this->rollAttributes($character);
 
         $form = $this->createForm(CharacterType::class, $character);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
             $this->entityManager->persist($character);
             $this->entityManager->flush();
 
@@ -61,6 +61,32 @@ class CharacterController extends AbstractController
         return $this->render('character/new.html.twig', [
             'character' => $character,
             'form' => $form->createView(),
+        ]);
+    }
+
+    #[Route('/character/{id}/delete', name: 'character_delete', methods: ['POST'])]
+    public function delete(Request $request, Character $character): Response
+    {
+        if ($this->isCsrfTokenValid('delete' . $character->getId(), $request->request->get('_token'))) {
+            $this->entityManager->remove($character);
+            $this->entityManager->flush();
+        }
+
+        return $this->redirectToRoute('character_list');
+    }
+
+
+    #[Route('/character/{id}', name: 'character_detail', methods: ['GET'])]
+    public function detail(Character $character, Request $request): Response
+    {
+        // Set the active character for the current user
+        $user = $this->getUser();
+        $user->setActiveCharacter($character);
+        $this->entityManager->persist($user);
+        $this->entityManager->flush();
+
+        return $this->render('character/detail.html.twig', [
+            'character' => $character,
         ]);
     }
 

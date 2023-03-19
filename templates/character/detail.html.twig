@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Character Detail: {{ character.name }}{% endblock %}
+
+{% block body %}
+    <h1>Character Detail: {{ character.name }}</h1>
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <td>{{ character.name }}</td>
+        </tr>
+        <tr>
+            <th>Species</th>
+            <td>{{ character.species }}</td>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <td>{{ character.class }}</td>
+        </tr>
+        <tr>
+            <th>Hitpoints</th>
+            <td>{{ character.hitpoints }}</td>
+        </tr>
+        <tr>
+            <th>Skill Bonus</th>
+            <td>{{ character.skillBonus }}</td>
+        </tr>
+        <tr>
+            <th>Armor Class</th>
+            <td>{{ character.armorClass }}</td>
+        </tr>
+        <tr>
+            <th>Attack</th>
+            <td>{{ character.attack }}</td>
+        </tr>
+    </table>
+
+    <a href="{{ path('character_list') }}" class="btn btn-primary">Back to character list</a>
+{% endblock %}

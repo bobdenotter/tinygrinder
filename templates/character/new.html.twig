@@ -21,6 +21,7 @@
     {{ form_widget(form) }}
 
     <button class="btn btn-primary">Create</button>
+    <a href="{{ path('character_new') }}" class="btn btn-outline-secondary">Re-roll character</a>
     {{ form_end(form) }}
 
     <script>
@@ -40,7 +41,7 @@
             const classDescription = document.getElementById('class-description');
 
             function updateClassDescription() {
-                const selectedOption = classSelect.options[speciesSelect.selectedIndex];
+                const selectedOption = classSelect.options[classSelect.selectedIndex];
                 classDescription.textContent = selectedOption.dataset.description;
             }
 

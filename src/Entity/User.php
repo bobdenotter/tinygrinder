@@ -38,6 +38,9 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\OneToMany(mappedBy: 'user', targetEntity: Character::class, orphanRemoval: true)]
     private Collection $characters;
 
+    #[ORM\OneToOne(cascade: ['persist', 'remove'])]
+    private ?Character $activeCharacter = null;
+
     public function __construct()
     {
         $this->characters = new ArrayCollection();
@@ -151,6 +154,18 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
                 $character->setUser(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getActiveCharacter(): ?Character
+    {
+        return $this->activeCharacter;
+    }
+
+    public function setActiveCharacter(?Character $activeCharacter): self
+    {
+        $this->activeCharacter = $activeCharacter;
 
         return $this;
     }
