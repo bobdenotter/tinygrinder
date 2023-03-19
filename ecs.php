@@ -17,11 +17,13 @@ return function (ECSConfig $ecsConfig): void {
     // this way you add a single rule
     $ecsConfig->rules([
         NoUnusedImportsFixer::class,
+        \PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer::class,
     ]);
 
     // this way you can add sets - group of rules
     $ecsConfig->sets([
-        SetList::PSR_12
+        SetList::PSR_12,
+//        SetList::COMMON
         // run and fix, one by one
         // SetList::SPACES,
         // SetList::ARRAY,
