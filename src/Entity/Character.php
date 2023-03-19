@@ -26,49 +26,49 @@ class Character
     private ?string $class = null;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $STR = null;
+    private ?int $STR = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $DEX = null;
+    private ?int $DEX = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $CON = null;
+    private ?int $CON = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $INT = null;
+    private ?int $INT = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $WIS = null;
+    private ?int $WIS = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $CHA = null;
+    private ?int $CHA = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $proficiency = null;
+    private ?int $proficiency = 1;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $speed = null;
+    private ?int $speed = 25;
 
     #[ORM\Column]
-    private ?int $HP = null;
+    private ?int $HP = 10;
 
     #[ORM\Column]
-    private ?int $maxHP = null;
+    private ?int $maxHP = 10;
 
     #[ORM\Column]
-    private ?int $tempHP = null;
+    private ?int $tempHP = 0;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $initiative = null;
+    private ?int $initiative = 0;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $AC = null;
+    private ?int $AC = 10;
 
     #[ORM\Column(type: Types::SMALLINT)]
-    private ?int $level = null;
+    private ?int $level = 1;
 
     #[ORM\Column]
-    private ?int $XP = null;
+    private ?int $XP = 0;
 
     #[ORM\OneToMany(mappedBy: 'character', targetEntity: Inventory::class, orphanRemoval: true)]
     private Collection $Inventory;
