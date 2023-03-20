@@ -14,7 +14,9 @@ use Symfony\Component\Yaml\Yaml;
 class QuestImporter
 {
     private EncounterRepository $encounterRepository;
+
     private QuestRepository $questRepository;
+
     private EntityManager $em;
 
     public function __construct(EncounterRepository $encounterRepository, QuestRepository $questRepository, EntityManagerInterface $em)

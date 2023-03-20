@@ -11,6 +11,7 @@ use Symfony\Bundle\SecurityBundle\Security;
 class BaseController extends AbstractController
 {
     private Security $security;
+
     private CharacterRepository $characterRepository;
 
     public function __construct(Security $security, CharacterRepository $characterRepository)

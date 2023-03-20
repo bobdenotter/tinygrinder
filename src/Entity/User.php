@@ -140,7 +140,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     public function addCharacter(Character $character): self
     {
-        if (!$this->characters->contains($character)) {
+        if (! $this->characters->contains($character)) {
             $this->characters->add($character);
             $character->setUser($this);
         }

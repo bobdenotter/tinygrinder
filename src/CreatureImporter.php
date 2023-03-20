@@ -12,6 +12,7 @@ use Symfony\Component\Yaml\Yaml;
 class CreatureImporter
 {
     private EntityManager $em;
+
     private CreatureRepository $repository;
 
     public function __construct(CreatureRepository $repository, EntityManagerInterface $em)

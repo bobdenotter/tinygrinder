@@ -17,7 +17,6 @@ class HomeController extends BaseController
         dump($roll->getTotal());
         dump($roll->getDicePools());
 
-
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
             'character' => $this->getActiveCharacter()

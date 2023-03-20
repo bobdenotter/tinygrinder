@@ -18,6 +18,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class CharacterController extends AbstractController
 {
     private Security $security;
+
     private EntityManagerInterface $entityManager;
 
     public function __construct(Security $security, EntityManagerInterface $entityManager)
@@ -73,7 +74,6 @@ class CharacterController extends AbstractController
 
         return $this->redirectToRoute('character_list');
     }
-
 
     #[Route('/character/{id}', name: 'character_detail', methods: ['GET'])]
     public function detail(Character $character, Request $request): Response

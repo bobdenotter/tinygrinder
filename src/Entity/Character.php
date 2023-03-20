@@ -209,7 +209,7 @@ class Character
 
     public function addInventory(Inventory $inventory): self
     {
-        if (!$this->Inventory->contains($inventory)) {
+        if (! $this->Inventory->contains($inventory)) {
             $this->Inventory->add($inventory);
             $inventory->setCharacter($this);
         }
