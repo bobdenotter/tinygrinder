@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
+use PhpCsFixer\Fixer\ControlStructure\TrailingCommaInMultilineFixer;
 use PhpCsFixer\Fixer\Import\NoUnusedImportsFixer;
+use PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer;
+use PhpCsFixer\Fixer\Whitespace\ArrayIndentationFixer;
 use Symplify\EasyCodingStandard\Config\ECSConfig;
 use Symplify\EasyCodingStandard\ValueObject\Set\SetList;
 
@@ -17,11 +20,9 @@ return function (ECSConfig $ecsConfig): void {
     // this way you add a single rule
     $ecsConfig->rules([
         NoUnusedImportsFixer::class,
-        \PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer::class,
-        \PhpCsFixer\Fixer\ControlStructure\TrailingCommaInMultilineFixer::class,
-        \PhpCsFixer\Fixer\Whitespace\ArrayIndentationFixer::class
-//        * Symplify\CodingStandard\Fixer\ArrayNotation\ArrayOpenerAndCloserNewlineFixer
-
+        DeclareStrictTypesFixer::class,
+        TrailingCommaInMultilineFixer::class,
+        ArrayIndentationFixer::class,
     ]);
 
     // this way you can add sets - group of rules
