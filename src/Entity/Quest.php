@@ -157,7 +157,7 @@ class Quest
 
     public function addEncounter(Encounter $encounter): self
     {
-        if (! $this->Encounter->contains($encounter)) {
+        if (!$this->Encounter->contains($encounter)) {
             $this->Encounter->add($encounter);
             $encounter->setQuest($this);
         }
