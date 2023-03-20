@@ -40,7 +40,7 @@ class CharacterType extends AbstractType
                     'Human (No modifiers)' => 'Human',
                     'Elf (+1 Skill, -1 HP)' => 'Elf',
                     'Dwarf (+1 HP, -1 Skill)' => 'Dwarf',
-                    'Halfling (+1 AC, -1 Attack)' => 'Halfling'
+                    'Halfling (+1 AC, -1 Attack)' => 'Halfling',
                 ],
                 'choice_attr' => function ($choice, $key, $value) {
                     $descriptions = [
@@ -52,14 +52,14 @@ class CharacterType extends AbstractType
                     ];
                     return ['data-description' => $descriptions[$value]];
                 },
-                'required' => true
+                'required' => true,
             ])
             ->add('class', ChoiceType::class, [
                 'choices' => [
                     'Fighter (+1 Attack, ability: Power Strike)' => 'Fighter',
                     'Thief (+1 Skill Bonus, ability: Stealth)' => 'Thief',
                     'Magic-User (+1 Spell Power, ability: Magic Missile)' => 'Magic-User',
-                    'Cleric (+1 Healing, ability: Heal)' => 'Cleric'
+                    'Cleric (+1 Healing, ability: Heal)' => 'Cleric',
                 ],
                 'choice_attr' => function ($choice, $key, $value) {
                     $descriptions = [

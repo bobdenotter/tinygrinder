@@ -19,7 +19,7 @@ class HomeController extends BaseController
 
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
-            'character' => $this->getActiveCharacter()
+            'character' => $this->getActiveCharacter(),
         ]);
     }
 }
