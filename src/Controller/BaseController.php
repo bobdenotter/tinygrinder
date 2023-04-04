@@ -22,6 +22,6 @@ class BaseController extends AbstractController
 
     public function getActiveCharacter()
     {
-        return $this->characterRepository->find($this->security->getUser()->getActiveCharacter());
+//        return $this->characterRepository->find($this->security->getUser()->getActiveCharacter());
     }
 }
